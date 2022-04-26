@@ -1,0 +1,7 @@
+{
+  "name": "StartupChannel",
+  "description": "Go to some channel on startup",
+  "author": "Animal",
+  "file": "plugin.js",
+  "license": "MIT"
+}

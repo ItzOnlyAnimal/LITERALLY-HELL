@@ -1,0 +1,1 @@
+cyn's moyai plugin but it only plays for husk instead of moyai cause people keep fucking spamming moyai god its so annoying RGH

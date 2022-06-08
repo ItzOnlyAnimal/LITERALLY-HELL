@@ -1,0 +1,7 @@
+{
+  "name": "Not Spammer",
+  "description": "disable likely spammer indicator",
+  "author": "Animal",
+  "file": "plugin.js",
+  "license": "MIT"
+}

@@ -1,12 +1,13 @@
 import { findByProps } from "@cumcord/modules/webpack";
 import { instead } from "@cumcord/patcher";
                                     
-const isSpam = instead("isSpam", findByProps("isSpam"), () => {return false});
+const typing = instead("startTyping", findByProps("startTyping"), () => {});
 
 export default (data) => {
   return {
+
     onUnload() {
-      isSpam()
+      typing()
     }
   };
 };

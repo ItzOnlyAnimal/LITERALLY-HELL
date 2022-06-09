@@ -1,1 +1,1 @@
-(function(o,n){"use strict";const c=o.findByProps("isSpam"),a=n.instead("isSpam",c,(s,t)=>!1);var r=s=>({onLoad(){},onUnload(){a()}});return r})(cumcord.modules.webpack,cumcord.patcher);
+(function(c,n){"use strict";const a=n.instead("isSpam",c.findByProps("isSpam"),()=>!1);var o=r=>({onUnload(){a()}});return o})(cumcord.modules.webpack,cumcord.patcher);
